@@ -115,7 +115,7 @@ class Serializer:
 
 
 a = Serializer()
-dict_file = {"name": '123', "favorite_number": 321, 'favorite_color': 'red' }
+dict_file = {"name": '123', "favorite_number": 321, 'favorite_color': 'red'}
 b = a.encode(dict_file)
 print(b)
 print(Serializer().decode(b)[0])
